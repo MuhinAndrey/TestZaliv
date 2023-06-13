@@ -1,0 +1,18 @@
+﻿<Window x:Class="FinalyDem.AutoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FinalyDem"
+        mc:Ignorable="d"
+        Title="Регистрация" Height="450" Width="850" MinWidth="850" MinHeight="450">
+    <Grid Background="Coral">
+        <TextBox x:Name="Login_Auto" Height="35" Margin="321,121,321,263" TextWrapping="Wrap" Width="200"/>
+        <PasswordBox x:Name="Password1_Auto" Height="35" Width="200" Margin="321,191,321,193"/>
+
+        <Button x:Name="Auton_Button" Content="Войти" Height="35" Width="200" Margin="321,259,321,125" Click="Auton_Button_Click"/>
+        
+        <Label Content="Логин" Margin="321,86,421,303" Width="100" Height="30"/>
+        <Label Content="Пароль" Margin="321,156,421,233" Width="100" Height="30"/>
+    </Grid>
+</Window>
